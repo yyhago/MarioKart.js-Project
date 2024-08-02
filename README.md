@@ -1,7 +1,5 @@
 # MarioKart.js-Project
 
-<h1>Projeto: Mario Kart.JS</h1>
-
   <table>
         <tr>
             <td>
