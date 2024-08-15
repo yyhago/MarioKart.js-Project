@@ -1,3 +1,4 @@
+// Object with each players
 const player1 = {
   NOME: "Mario",
   VELOCIDADE: 4,
@@ -47,14 +48,14 @@ const player6 = {
 };
 
 
-
+// Function for calculation roll dice (one an six)
 async function rollDice(){ 
   return Math.floor(Math.random() * 6) + 1;
 }
 
 
 
-
+// Function for random block aleactory
 async function getRandomBlock(){
   let random = Math.random();
   let result;
@@ -74,14 +75,14 @@ async function getRandomBlock(){
 
 
 
-
+// Function to obtain logs on roll results
 async function logRollResult(characterName, block, diceResult, attribute){
   console.log(`${characterName} 🎲 rolou um dado de ${block} ${diceResult} + ${attribute} = ${diceResult + attribute}`)
 }
 
 
 
-
+// Function for playing for game and controller at rounds
 async function playRaceEngine(character1, character2){
   for(let round = 1; round <= 5; round++) {
     console.log(`🚗 Rodada: ${round}`);
@@ -174,7 +175,7 @@ async function playRaceEngine(character1, character2){
 
 
 
-
+// Function for declare win
 async function declareWinner(character1, character2){
 
   console.log("Resultado Final: ")
@@ -194,7 +195,7 @@ async function declareWinner(character1, character2){
 
 
 
-
+// Principal function, for running all code and your respective functions
 (async function main(){
   console.log(`🏁🚥 A corrida entre ${player1.NOME} e ${player2.NOME} vai começar ... 🏁🚥\n`);
 
