@@ -197,7 +197,7 @@ async function declareWinner(character1, character2){
 
 // Principal function, for running all code and your respective functions
 (async function main(){
-  console.log(`🏁🚥 A corrida entre ${player1.NOME} e ${player2.NOME} vai começar ... 🏁🚥\n`);
+  console.log(`🏁🚥 A corrida entre ${player6.NOME} e ${player4.NOME} vai começar ... 🏁🚥\n`);
 
   await playRaceEngine(player6, player4);
   await declareWinner(player6, player4)
