@@ -1,5 +1,9 @@
 # MarioKart.js-Project
 
+<p align="center">
+  <img src="./pictureScreen/image.png" alt="Imagem do Projeto">
+</p>
+
   <table>
         <tr>
             <td>
